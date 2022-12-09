@@ -152,4 +152,4 @@ def teMarkets(datasets):
 # EXAMPLE
 if __name__ == "__main__":
     data = tradingEconomics(["crypto"])
-    print(data["crypto"])
+    print(data["crypto"]["crypto"])
