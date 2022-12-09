@@ -149,6 +149,7 @@ def tradingEconomics(datasets):
             returnDict["stocks"] = "Request error: {}".format(request.status_code)
     return returnDict
 
+# EXAMPLE
 if __name__ == "__main__":
     data = tradingEconomics(["crypto"])
     print(data["crypto"])
