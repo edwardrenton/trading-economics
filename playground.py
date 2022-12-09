@@ -8,13 +8,13 @@ headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
 }
 
-def tradingEconomics(datasets):
+def teMarkets(datasets):
     """
         Retrieves market data from www.tradingeconomics.com, given an input target dataset.
         Note the data is extracted from the website's HTML, not the actual API, so may be prone to breaking.
 
         Inputs
-        * list of strings representing the target datasets, eg. ['bonds', 'stocks']
+        * list of strings representing the target market datasets, eg. ['bonds', 'stocks']
         * strings must be one of the following options:
             - 'bonds'
             - 'commodities'
