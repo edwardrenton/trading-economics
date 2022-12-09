@@ -1,2 +1,2 @@
 # tradingEconomics
-Scrape data from www.tradingeconomics.com
+Scrape (almost) live financial data from www.tradingeconomics.com
