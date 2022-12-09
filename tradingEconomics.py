@@ -151,6 +151,6 @@ def teMarkets(datasets):
 
 # EXAMPLE
 if __name__ == "__main__":
-    data = tradingEconomics(["crypto", "stocks"])
+    data = teMarkets(["crypto", "stocks"])
     print(data["crypto"].head())
     print(data["stocks"].head())
