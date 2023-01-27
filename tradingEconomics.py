@@ -151,6 +151,8 @@ def teMarkets(datasets):
 
 # EXAMPLE
 if __name__ == "__main__":
-    data = teMarkets(["crypto", "stocks"])
-    print(data["crypto"].head())
-    print(data["stocks"].head())
+    data_currencies = teMarkets(["currencies"])
+    data_stocks = teMarkets(["stocks"])
+    data_commodities = teMarkets(["commodities"])
+    data_bonds = teMarkets(["bonds"])
+    data_crypto = teMarkets(["crypto"])
